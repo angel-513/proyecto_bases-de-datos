@@ -1,0 +1,11 @@
+C:\Users\Usuario\Desktop\Personal\U\IS-501 Bases de Datos I\Proyecto\solucion_bases-de-datos\ProyectoBases.Models\bin\Debug\net8.0\ProyectoBases.Models.deps.json
+C:\Users\Usuario\Desktop\Personal\U\IS-501 Bases de Datos I\Proyecto\solucion_bases-de-datos\ProyectoBases.Models\bin\Debug\net8.0\ProyectoBases.Models.dll
+C:\Users\Usuario\Desktop\Personal\U\IS-501 Bases de Datos I\Proyecto\solucion_bases-de-datos\ProyectoBases.Models\bin\Debug\net8.0\ProyectoBases.Models.pdb
+C:\Users\Usuario\Desktop\Personal\U\IS-501 Bases de Datos I\Proyecto\solucion_bases-de-datos\ProyectoBases.Models\obj\Debug\net8.0\ProyectoBases.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Desktop\Personal\U\IS-501 Bases de Datos I\Proyecto\solucion_bases-de-datos\ProyectoBases.Models\obj\Debug\net8.0\ProyectoBases.Models.AssemblyInfoInputs.cache
+C:\Users\Usuario\Desktop\Personal\U\IS-501 Bases de Datos I\Proyecto\solucion_bases-de-datos\ProyectoBases.Models\obj\Debug\net8.0\ProyectoBases.Models.AssemblyInfo.cs
+C:\Users\Usuario\Desktop\Personal\U\IS-501 Bases de Datos I\Proyecto\solucion_bases-de-datos\ProyectoBases.Models\obj\Debug\net8.0\ProyectoBases.Models.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\Personal\U\IS-501 Bases de Datos I\Proyecto\solucion_bases-de-datos\ProyectoBases.Models\obj\Debug\net8.0\ProyectoBases.Models.dll
+C:\Users\Usuario\Desktop\Personal\U\IS-501 Bases de Datos I\Proyecto\solucion_bases-de-datos\ProyectoBases.Models\obj\Debug\net8.0\refint\ProyectoBases.Models.dll
+C:\Users\Usuario\Desktop\Personal\U\IS-501 Bases de Datos I\Proyecto\solucion_bases-de-datos\ProyectoBases.Models\obj\Debug\net8.0\ProyectoBases.Models.pdb
+C:\Users\Usuario\Desktop\Personal\U\IS-501 Bases de Datos I\Proyecto\solucion_bases-de-datos\ProyectoBases.Models\obj\Debug\net8.0\ref\ProyectoBases.Models.dll

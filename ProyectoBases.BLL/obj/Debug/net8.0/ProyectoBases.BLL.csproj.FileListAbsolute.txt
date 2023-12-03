@@ -1,0 +1,17 @@
+C:\Users\Usuario\Desktop\Personal\U\IS-501 Bases de Datos I\Proyecto\solucion_bases-de-datos\ProyectoBases.BLL\bin\Debug\net8.0\ProyectoBases.BLL.deps.json
+C:\Users\Usuario\Desktop\Personal\U\IS-501 Bases de Datos I\Proyecto\solucion_bases-de-datos\ProyectoBases.BLL\bin\Debug\net8.0\ProyectoBases.BLL.dll
+C:\Users\Usuario\Desktop\Personal\U\IS-501 Bases de Datos I\Proyecto\solucion_bases-de-datos\ProyectoBases.BLL\bin\Debug\net8.0\ProyectoBases.BLL.pdb
+C:\Users\Usuario\Desktop\Personal\U\IS-501 Bases de Datos I\Proyecto\solucion_bases-de-datos\ProyectoBases.BLL\obj\Debug\net8.0\ProyectoBases.BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Desktop\Personal\U\IS-501 Bases de Datos I\Proyecto\solucion_bases-de-datos\ProyectoBases.BLL\obj\Debug\net8.0\ProyectoBases.BLL.AssemblyInfoInputs.cache
+C:\Users\Usuario\Desktop\Personal\U\IS-501 Bases de Datos I\Proyecto\solucion_bases-de-datos\ProyectoBases.BLL\obj\Debug\net8.0\ProyectoBases.BLL.AssemblyInfo.cs
+C:\Users\Usuario\Desktop\Personal\U\IS-501 Bases de Datos I\Proyecto\solucion_bases-de-datos\ProyectoBases.BLL\obj\Debug\net8.0\ProyectoBases.BLL.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\Personal\U\IS-501 Bases de Datos I\Proyecto\solucion_bases-de-datos\ProyectoBases.BLL\obj\Debug\net8.0\ProyectoBases.BLL.dll
+C:\Users\Usuario\Desktop\Personal\U\IS-501 Bases de Datos I\Proyecto\solucion_bases-de-datos\ProyectoBases.BLL\obj\Debug\net8.0\refint\ProyectoBases.BLL.dll
+C:\Users\Usuario\Desktop\Personal\U\IS-501 Bases de Datos I\Proyecto\solucion_bases-de-datos\ProyectoBases.BLL\obj\Debug\net8.0\ProyectoBases.BLL.pdb
+C:\Users\Usuario\Desktop\Personal\U\IS-501 Bases de Datos I\Proyecto\solucion_bases-de-datos\ProyectoBases.BLL\obj\Debug\net8.0\ref\ProyectoBases.BLL.dll
+C:\Users\Usuario\Desktop\Personal\U\IS-501 Bases de Datos I\Proyecto\solucion_bases-de-datos\ProyectoBases.BLL\bin\Debug\net8.0\ProyectoBases.DAL.dll
+C:\Users\Usuario\Desktop\Personal\U\IS-501 Bases de Datos I\Proyecto\solucion_bases-de-datos\ProyectoBases.BLL\bin\Debug\net8.0\ProyectoBases.Models.dll
+C:\Users\Usuario\Desktop\Personal\U\IS-501 Bases de Datos I\Proyecto\solucion_bases-de-datos\ProyectoBases.BLL\bin\Debug\net8.0\ProyectoBases.DAL.pdb
+C:\Users\Usuario\Desktop\Personal\U\IS-501 Bases de Datos I\Proyecto\solucion_bases-de-datos\ProyectoBases.BLL\bin\Debug\net8.0\ProyectoBases.Models.pdb
+C:\Users\Usuario\Desktop\Personal\U\IS-501 Bases de Datos I\Proyecto\solucion_bases-de-datos\ProyectoBases.BLL\obj\Debug\net8.0\ProyectoBases.BLL.csproj.AssemblyReference.cache
+C:\Users\Usuario\Desktop\Personal\U\IS-501 Bases de Datos I\Proyecto\solucion_bases-de-datos\ProyectoBases.BLL\obj\Debug\net8.0\ProyectoBases.BLL.csproj.CopyComplete

@@ -1,0 +1,174 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="row">
+    <div class="col-sm-12">
+        <div class="card">
+            <div class="card-header">Clientes</div>
+            <div class="card-body">
+                <button class="btn btn-success" id="btnNuevo">Nuevo Cliente</button>
+
+                <hr>
+
+                <table class="table table-striped" id="tbClientes">
+                    <thead>
+                        <tr>
+                            <th>Primer Nombre</th>
+                            <th>Segundo Nombre</th>
+                            <th>Primer Apellido</th>
+                            <th>Segundo Apellido</th>
+                            <th>DireccionID</th>
+                            <th>Telefono</th>
+                            <th>Correo</th>
+                            <th>Fecha de nacimeinto</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Detalle Cliente</h5>
+                <button type="button" class="btn-close" data-bd-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <input type="hidden" id="txtClienteID" value="0">
+                <div class="mb-2">
+                    <label>Primer Nombre</label>
+                    <input type="text" class="form-control" id="txtPrimerNombre">
+                </div>
+                <div class="mb-2">
+                    <label>Segundo Nombre</label>
+                    <input type="text" class="form-control" id="txtSegundoNombre">
+                </div>
+                <div class="mb-2">
+                    <label>Primer Apellido</label>
+                    <input type="text" class="form-control" id="txtPrimerApellido">
+                </div>
+                <div class="mb-2">
+                    <label>Segundo Apellido</label>
+                    <input type="text" class="form-control" id="txtSegundoApellido">
+                </div>
+                <div class="mb-2">
+                    <label>Telefono</label>
+                    <input type="text" class="form-control" id="txTelefono">
+                </div>
+                <div class="mb-2">
+                    <label>Correo</label>
+                    <input type="text" class="form-control" id="txCorreo">
+                </div>
+                <div class="mb-2">
+                    <label>Fecha Nacimiento</label>
+                    <input type="text" class="form-control" id="txFechaNacimiento">
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn-primary" id="btnGuardar">Guardar</button>
+                <button type="button" class="btn-secondary" id="btnCerrar">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        const Modelo_base = {
+            ClienteId: 0,
+            PNombre: "",
+            SNombre: "",
+            PApellido: "",
+            SApellido: "",
+            Telefono: "",
+            Correo: "",
+            FechaNacimiento: "",
+        }
+
+        $(document).ready(() => listaCliente())
+
+        function mostrarModal(modelo) {
+            $("#txtClienteID").val(modelo.ClienteId);
+            $("#txtPrimerNombre").val(modelo.PNombre);
+            $("#txtSegundoNombre").val(modelo.SNombre);
+            $("#txtPrimerApellido").val(modelo.PApellido);
+            $("#txtSegundoApellido").val(modelo.SApellido);
+            $("#txTelefono").val(modelo.Telefono);
+            $("#txCorreo").val(modelo.Correo);
+            $("#txFechaNacimiento").val(modelo.FechaNacimiento);
+
+            $('.modal').modal('show');
+        }
+
+        $("#btnNuevo").click(() => {
+            mostrarModal(Modelo_base);
+        })
+
+        $("#btnGuardar").click(() => {
+            let NuevoModelo = Modelo_base;
+
+            NuevoModelo["ClienteId"] = $("#txtClienteID").val();
+            NuevoModelo["PNombre"] = $("#txtPrimerNombre").val();
+            NuevoModelo["SNombre"] = $("#txtSegundoNombre").val();
+            NuevoModelo["PApellido"] = $("#txtPrimerApellido").val();
+            NuevoModelo["SApellido"] = $("#txtSegundoApellido").val();
+            NuevoModelo["Telefono"] = $("#txtTelefono").val();
+            NuevoModelo["Correo"] = $("#txtCorreo").val();
+            NuevoModelo["FechaNacimiento"] = $("#txtFechaNacimiento").val();
+
+            if ($("#txtClienteID").val() == "0") {
+                fetch("Home/Insertar", {
+                    method: "POST",
+                    headers: {
+                        'Content-Type': 'application/json;charset=utf-8'
+                    },
+                    body: JSON.stringify(NuevoModelo)
+                })
+                .then(response => {
+                    return response.ok ? response.json() : Promise.reject(response)
+                })
+                .then(dataJson => {
+                    if (dataJson.valor) {
+                        alert("Registrado")
+                            $('.modal').modal('hide');
+                    }
+                })
+            }
+        })
+
+        function listaCliente() {
+            fetch("Home/ListarClientes")
+            .then(response => {
+                return response.ok ? response.json() : Promise.reject(response)
+            })
+            .then(dataJson => {
+                console.log(dataJson);
+                $("#tbClientes tbody").html("");
+                dataJson.forEach(item => {
+                    $("#tbClientes tbody").append(
+                        $("<tr>").append(
+                            $("<td>").text(item.PNombre),
+                            $("<td>").text(item.SNombre),
+                            $("<td>").text(item.PApellido),
+                            $("<td>").text(item.SApellido),
+                            $("<td>").text(item.Telefono),
+                            $("<td>").text(item.Correo),
+                            $("<td>").text(item.FechaNacimiento),
+                            $("<td>").append(
+                                $("<button>").addClass("btn btn-primary btn-sm me-2 btn-editar").data("modelo", item).text("Editar"),
+                                $("<button>").addClass("btn btn-danger btn-sm btn-eliminar").data("id", item.ClienteId.text("Eliminar")
+                            )
+                        )
+                    )
+                })
+            })
+        }
+    </script>
+}

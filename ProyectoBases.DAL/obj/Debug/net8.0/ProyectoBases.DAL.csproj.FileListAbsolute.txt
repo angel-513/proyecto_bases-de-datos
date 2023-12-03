@@ -1,0 +1,17 @@
+C:\Users\Usuario\Desktop\Personal\U\IS-501 Bases de Datos I\Proyecto\solucion_bases-de-datos\ProyectoBases.DAL\bin\Debug\net8.0\ProyectoBases.DAL.deps.json
+C:\Users\Usuario\Desktop\Personal\U\IS-501 Bases de Datos I\Proyecto\solucion_bases-de-datos\ProyectoBases.DAL\bin\Debug\net8.0\ProyectoBases.DAL.runtimeconfig.json
+C:\Users\Usuario\Desktop\Personal\U\IS-501 Bases de Datos I\Proyecto\solucion_bases-de-datos\ProyectoBases.DAL\bin\Debug\net8.0\ProyectoBases.DAL.dll
+C:\Users\Usuario\Desktop\Personal\U\IS-501 Bases de Datos I\Proyecto\solucion_bases-de-datos\ProyectoBases.DAL\bin\Debug\net8.0\ProyectoBases.DAL.pdb
+C:\Users\Usuario\Desktop\Personal\U\IS-501 Bases de Datos I\Proyecto\solucion_bases-de-datos\ProyectoBases.DAL\obj\Debug\net8.0\ProyectoBases.DAL.csproj.AssemblyReference.cache
+C:\Users\Usuario\Desktop\Personal\U\IS-501 Bases de Datos I\Proyecto\solucion_bases-de-datos\ProyectoBases.DAL\obj\Debug\net8.0\ProyectoBases.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Desktop\Personal\U\IS-501 Bases de Datos I\Proyecto\solucion_bases-de-datos\ProyectoBases.DAL\obj\Debug\net8.0\ProyectoBases.DAL.AssemblyInfoInputs.cache
+C:\Users\Usuario\Desktop\Personal\U\IS-501 Bases de Datos I\Proyecto\solucion_bases-de-datos\ProyectoBases.DAL\obj\Debug\net8.0\ProyectoBases.DAL.AssemblyInfo.cs
+C:\Users\Usuario\Desktop\Personal\U\IS-501 Bases de Datos I\Proyecto\solucion_bases-de-datos\ProyectoBases.DAL\obj\Debug\net8.0\ProyectoBases.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\Personal\U\IS-501 Bases de Datos I\Proyecto\solucion_bases-de-datos\ProyectoBases.DAL\obj\Debug\net8.0\ProyectoBases.DAL.dll
+C:\Users\Usuario\Desktop\Personal\U\IS-501 Bases de Datos I\Proyecto\solucion_bases-de-datos\ProyectoBases.DAL\obj\Debug\net8.0\refint\ProyectoBases.DAL.dll
+C:\Users\Usuario\Desktop\Personal\U\IS-501 Bases de Datos I\Proyecto\solucion_bases-de-datos\ProyectoBases.DAL\obj\Debug\net8.0\ProyectoBases.DAL.pdb
+C:\Users\Usuario\Desktop\Personal\U\IS-501 Bases de Datos I\Proyecto\solucion_bases-de-datos\ProyectoBases.DAL\obj\Debug\net8.0\ProyectoBases.DAL.genruntimeconfig.cache
+C:\Users\Usuario\Desktop\Personal\U\IS-501 Bases de Datos I\Proyecto\solucion_bases-de-datos\ProyectoBases.DAL\obj\Debug\net8.0\ref\ProyectoBases.DAL.dll
+C:\Users\Usuario\Desktop\Personal\U\IS-501 Bases de Datos I\Proyecto\solucion_bases-de-datos\ProyectoBases.DAL\bin\Debug\net8.0\ProyectoBases.Models.dll
+C:\Users\Usuario\Desktop\Personal\U\IS-501 Bases de Datos I\Proyecto\solucion_bases-de-datos\ProyectoBases.DAL\bin\Debug\net8.0\ProyectoBases.Models.pdb
+C:\Users\Usuario\Desktop\Personal\U\IS-501 Bases de Datos I\Proyecto\solucion_bases-de-datos\ProyectoBases.DAL\obj\Debug\net8.0\ProyectoBases.DAL.csproj.CopyComplete
